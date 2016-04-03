@@ -1,0 +1,15 @@
+// sass --watch sass:assets/css --style compressed
+
+@import "bourbon/bourbon";
+@import "neat/neat";
+
+@import "partials/colours";
+@import "partials/grid";
+@import "partials/fonts";
+@import "partials/typography";
+@import "partials/forms";
+@import "partials/menus";
+@import "partials/structure";
+@import "partials/elements";
+@import "partials/webticker";
+@import "partials/homepage";

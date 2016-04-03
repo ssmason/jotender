@@ -1,0 +1,109 @@
+html, body {
+	color: #fff;
+}
+
+a {
+	color: #009deb;
+	text-decoration: none;
+	border: none;
+	outline: none;
+}
+
+a img {
+	border: none;
+	outline: none;
+}
+
+a:focus,
+h3:focus {
+	outline: none;
+}
+
+h1 {
+	font-family: $premier_league;
+	font-size: 2.4em;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 0 0 0.1em;
+	line-height: 1em;
+        @include media($tablet) {
+		font-size: 2.8em;
+                
+	}
+        @include media($desktop) {
+		font-size: 2.8em;
+                
+	}
+}
+
+h2 {
+	font-size: 1.5em;
+	font-weight: normal;
+	margin: 0 0 1.1em;
+	color: $french-grey;
+}
+h2.bright {
+	color: $supernova;
+}
+
+h3 {
+	font-weight: bold;
+	background-color: $gun-powder;
+	color: #ffffff;
+	font-size: 0.9em;
+	padding: 0.5em;
+	margin-bottom: 1em;
+}
+
+h3.important {
+	background-color: $comet;
+	color: #ffffff;
+}
+
+h4 {
+	margin-bottom: 0.5em;
+}
+
+p {
+	font-size: 0.9em;
+	margin: 0 0 1em;
+	line-height: 1.3em;
+}
+
+p.errors {
+	border: 3px solid $red-ribbon;
+	border-radius: 0.3em;
+	background-color: $monza;
+	color: #ffffff;
+	padding: 1em;
+}
+span.error-message{
+	display: block;
+}
+span.field {
+	font-weight: bold;
+}
+
+ul {
+	font-size: 0.9em;
+	margin-bottom: 1em;
+	padding: 0 0 0 1.5em;
+}
+
+ul li {
+	list-style: square;
+}
+
+ol {
+/*	font-size: 0.9em;*/
+	margin-bottom: 1em;
+	padding: 0 0 0 1.3em;
+}
+
+ol.alpha li {
+	list-style: upper-alpha;
+}
+
+.indent {
+	padding: 0 0 0 1.3em;
+}

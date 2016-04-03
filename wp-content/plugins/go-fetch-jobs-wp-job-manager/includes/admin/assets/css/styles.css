@@ -1,0 +1,289 @@
+
+/* General */
+
+.regular-text2 {
+	width: 50em;
+}
+
+.goft-icon {
+	font-family: Fontello !important;
+	content: '\e800';
+}
+
+/* Errors */
+
+.goft_wpjm.no-jobs-found.feed {
+	width: 50em;
+	display: block;
+    margin: 10px 0;
+    background: #E65D5D;
+    padding: 5px;
+    color: #fff;
+    border-radius: 5px;
+    font-style: normal;
+}
+
+/* Table Rows & Columns */
+
+.form-table.goft .tr-hide,
+.form-table.goft .temp-tr-hide,
+.button-primary.import-posts {
+	display: none;
+}
+
+.form-table.goft .hr-break th,
+.form-table.goft .hr-break td {
+	padding: 0;
+}
+
+.goft_wpjm_table {
+    table-layout: fixed;
+}
+
+.goft_wpjm_table td {
+	text-wrap: normal;
+}
+
+.form-table.goft .goft_wpjm_table th {
+	padding-left: 10px;
+}
+
+.tools_page_wp-xporter .form-table th,
+.tools_page_wp-xporter .form-table td {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.goft_wpjm_table {
+	width: 80%;
+}
+
+.goft_wpjm_table input[type=hidden]:parent {
+	display: none;
+}
+
+.goft_wpjm_table td,
+.goft_wpjm_table th {
+	padding: 10px;
+}
+
+.goft_wpjm_table th {
+	padding-left: 2px;
+}
+
+.goft_wpjm_table .sample_content {
+	font-size: 12px;
+	color: #9C9C9C;
+}
+
+
+/* Table Fields */
+
+.goft_wpjm_table td {
+	font-size: 10px;
+}
+
+.goft_wpjm_table select,
+.goft_wpjm_table input[type=text] {
+	height: 20px;
+	font-size: 10px;
+}
+
+.goft_wpjm_table td .field {
+	font-weight: bold;
+}
+
+.goft_wpjm_table .custom td .field,
+.show-hidden-fields {
+	color: #A73E3E;
+	font-style: italic;
+	font-weight: bold;
+}
+
+.goft_wpjm_table .taxonomy td .field,
+.show-taxonomy-fields {
+	color: #4C8641;
+	font-style: italic;
+	font-weight: bold;
+}
+
+/* Providers */
+
+.force-feed {
+	display: none;
+}
+
+.providers-placeholder {
+    background-color: #fff;
+	padding: 10px 15px 0 30px;
+	display: none;
+	border-radius: 5px;
+}
+
+.providers-placeholder ul li {
+	list-style: initial;
+}
+
+.providers-placeholder ul,
+.providers-placeholder ol {
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+.providers-placeholder-content {
+    background-color: #fff;
+    padding: 10px 0;
+}
+
+.provider-logo-orig {
+	padding: 10px 0;
+	max-height: 64px;
+}
+
+.form-table.goft .dashicons-rss {
+	color: #FF8F1B;
+}
+
+.rss-copied-msg {
+	margin-left: 20px;
+	color: #7bbb5e;
+}
+
+.feed-builder .params {
+	float: left;
+	margin-right: 10px;
+}
+
+.provider-rss-custom-placeholder {
+    padding-top: 10px;
+}
+
+.feed-manual-setup {
+	border-bottom: 1px solid #F3F3F3;
+}
+
+.feed-manual-setup,
+.feed-builder,
+.multi-region-details {
+	display: none;
+	padding-left: 15px;
+}
+
+.provider-expand-feed-manual-setup,
+.provider-expand-feed-builder {
+	margin: 5px 0;
+    display: inline-block;
+}
+
+.feed-manual-setup,
+.feed-builder {
+	margin: 20px 0;
+}
+
+.secondary-container {
+    padding: 15px;
+    background-color: #F9F9F9;
+    border: 1px solid #EFEFEF;
+    border-radius: 5px;
+    margin: 10px 0 0 0;
+}
+
+.reset-val {
+	display: inline-block;
+	margin-right: 5px;
+}
+
+.reset-val .dashicons {
+	font-size: 16px;
+	color: #C1C1C1;
+}
+
+
+/* Filters */
+
+.filter_label {
+	font-size: 12px;
+	font-weight: normal;
+}
+
+/* Processing */
+
+.goft_wpjm.processing {
+	background: transparent url('../images/processing.gif') no-repeat;
+	display: inline-block;
+	width: 16px;
+	margin-left: 10px;
+}
+
+/* Dates */
+
+.span_date {
+	font-size: 12px;
+}
+
+#from_date, #to_date {
+	cursor: pointer;
+}
+
+/* Default Values */
+
+.section-values {
+	background-color: #EAEAEA;
+}
+
+.section-values span:first-of-type {
+	display: inline-block;
+	margin-left: 15px;
+}
+
+.form-table td.section-advanced {
+	padding-left: 0;
+}
+
+.section-values p.goft-basic {
+	width: 100%;
+}
+
+.goft-basic strong {
+	min-width: 120px;
+	padding-right: 10px;
+	text-align: right;
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Images */
+
+.goft-og-image {
+	height: 32px;
+}
+
+img.goft-image-thumb {
+	height: 32px;
+}
+
+img.goft-source-logo,
+img.goft-company-logo {
+	min-width: 64px;
+	height: 64px;
+}
+
+.goft-powered-by-google {
+	width: 100px;
+}
+
+/* Submit */
+
+.button-primary.import-posts {
+	width: 200px;
+	height: 50px;
+	font-size: 15px;
+}
+
+/* Icon */
+
+.limitation {
+	color: #D04E4E;
+    line-height: 17px;
+}
+

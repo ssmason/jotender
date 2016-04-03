@@ -1,0 +1,22 @@
+$black-pearl: #050528;
+$navy: #121c3b;
+$red-ribbon: #e00034;
+$monza: #b00029;
+$martinique: #313150;
+$gun-powder: #44445e;
+$comet: #60607c;
+$french-grey: #c0c0ca;
+$alto: #ffffff;
+$supernova: #fecf02;
+$cerulean: #00a4e8;
+$background-blue: #060a2b;
+$section:#191c3e;
+ $white:#ffffff;
+ $firstnth:#b01229;
+ 
+.background-gradient {
+  @include linear-gradient(to top, $black-pearl 0%, #071633 100%);
+}
+
+.red {color:$red-ribbon;}
+.white {color:white}

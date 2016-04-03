@@ -1,0 +1,249 @@
+/* NAVIGATION
+//////////////////////////////////////////////////////////////////////////////////*/
+
+header {
+
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 9999;
+	height: 6em;
+
+	@include media($desktop) {
+		height: auto;
+	}
+
+	.top {
+		background-color: #dddddd;
+		padding-top: 58px;
+ .home-logo {
+     
+     .social {
+            margin: 90px 0 0 120px;
+            @include media($tablet) {
+                    margin: 80px 0 0 90px;
+            }
+            @include media($desktop) {
+                    margin-right:30px;
+            }
+     }
+       display:block;
+				  width:100px !important;
+                    position: absolute !important;
+                    x-index:99999;width:100px !important;
+                    top:65px;
+                    img {
+                        width:100px !important;
+                    }
+      @include media($tablet) {
+          display:block;
+				  width:100px !important;
+                    position: absolute !important;
+                    x-index:99999;width:100px !important;
+                    top:95px;
+                    img {
+                        width:100px !important;
+                    }
+			}
+                  
+                
+     @include media($desktop) {
+				display:block;  width:199px !important;
+                    position: absolute !important;
+                    x-index:99999;width:199px !important;
+                    top:195px;
+                    img {
+                        width:199px !important;
+                    }
+			}
+                  
+ }
+
+		.logos {
+			position: relative;
+			background-color: $alto;
+
+			@include media($desktop) {
+				background-color: $background-blue;
+                                height:76px;
+			}
+
+			.pl {
+
+				position: relative;
+				margin-top: -2em;
+				margin-bottom: -3em;
+				z-index: 20;
+				@include span-columns(2 of 6);
+				@include media($desktop) {
+					@include span-columns(2 of 12);
+					margin-bottom: 5px;
+                                        margin-right:0 !important;
+                                        margin-top:-3em !important
+				}
+
+				img {
+					width: 80px;
+					height: auto;
+					@include media($desktop) {
+						width: 118px;
+					}
+				}
+			}
+			.clubs {
+
+				display: none;
+
+				@include media($desktop) {
+					@include span-columns(10 of 12);
+					padding-top: 1.5em;
+					display: block;
+				}
+
+				.badge {
+					padding: 0;
+				}
+                                .badges {
+                                    table {
+                                        width:830px ;
+                                        height:33px;
+                                         background:url("../img/club-badges/Top_teams.png") no-repeat;
+                                             background-size: 820px 33px;
+                                    }
+                                }
+			}
+
+		}
+               
+	}
+
+	hgroup {
+		background-color: $red-ribbon;
+		font-family: $premier_league;
+		position: absolute;
+		top: 2.6em;
+		width: 100%;
+		z-index: 9;
+
+		@include media($desktop) {
+			text-align: center;
+			position: relative;
+			top: auto;
+		}
+
+		.wrap {
+			width: 100%;
+			@include media($desktop) {
+				width: 95%;
+			}
+		}
+	}
+
+	.stuck {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+	}
+
+	.access {
+		padding: 0.7em 1em;
+		font-size: 1.3em;
+		text-align: right;
+
+		i {
+			font-size: 1.1em;
+			margin-left: 0.5em;
+		}
+		@include media($desktop) {
+			display: none;
+		}
+	}
+
+	menu {
+		padding: 0;
+		margin: 0;
+		background-color: $monza;
+
+		@include media($desktop) {
+			padding: 0;
+			margin: 0;
+			text-align: center;
+			display: block;
+			text-align: center;
+			background-color: $red-ribbon;
+                        height:49px;
+		}
+
+		ul {
+			margin: 0;
+			padding: 0;
+			@include media($desktop) {
+/*				display: inline-block;*/
+			}
+		}
+
+		li {
+			position: relative;
+			display: block;
+			list-style: none;
+			padding: 0;
+			margin: 0;
+
+			@include media($desktop) {
+				position: relative;
+				display: inline;
+				list-style: none;
+				padding: 0;
+				margin: 0;
+                             
+			}
+                        
+			a {
+				display: block;
+				padding: 0.7em 1em;
+				font-weight: bold;
+				text-decoration: none;
+				color: #fff;
+				font-family: $premier_league;
+
+				@include media($desktop) {
+					display: inline-block;
+					float: left;
+					padding: 1.1em 1.5em 1em;
+					font-weight: bold;
+					text-decoration: none;
+					z-index: 10;
+				}
+
+				&:hover {
+					background-color: $red-ribbon;
+				}
+                               
+			}
+
+			&.home {
+				@include media($desktop) {
+					display: none;
+				}
+			}
+
+			@include media($desktop) {
+				&.active a {
+ background:#b01229;
+
+					&:hover {
+
+					}
+				}
+			}
+		}
+	}
+        .mobile-only {
+            display:block;
+            @include media($desktop) {
+                display:none;
+            }
+        }
+}

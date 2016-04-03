@@ -1,0 +1,626 @@
+* {
+	margin: 0;
+}
+
+html {
+	height: 100%;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+	font-size: 12pt;
+	font-family: $expert_sans;
+	background-color: $background-blue;
+}
+
+body {
+	height: auto;
+        overflow-x: hidden;
+/*        @include media($tablet) {
+		height: 100%;
+                overflow-x: scroll;
+	}*/
+	@include media($desktop) {
+		height: 100%;
+                overflow-x: scroll;
+	}
+        
+}
+
+.wrapper {
+	@include media($tablet) {
+
+	}
+}
+
+.wrap {
+	@include outer-container();
+	width: 95%;
+}
+
+.branding {
+	float: none;
+	width: 100%;
+	height: auto;
+	padding: 0 0;
+/*	text-align: center;*/
+	margin-bottom: 1.5em;
+	position: relative;
+	line-height: 0.9em;
+	top: 2em;
+        
+
+	@include media($desktop) {
+		float: left;
+		width: 230px;
+		padding-bottom: 5em;
+		margin-top: 2em;
+	}
+}
+.mobile-map-controller {
+    
+	float: none;
+	position: relative;
+        z-index:999999;
+	text-align: center;
+	margin: 0 0 1.5em 0;
+	position: relative;
+	line-height: 0.9em;
+	 
+        ul.primary {
+            width: 100%;
+            height: auto;
+            padding: 0 0 !important;
+            margin-bottom:0;
+         li {
+            list-style:none;
+            border:1px solid $red-ribbon;
+            font-family: $premier_league;
+            font-size: 0.8;
+            font-weight: normal;
+            text-transform: uppercase;
+            margin: 0 0 0.4em;
+            float:left;
+            width: 48%;
+            margin: 1%;
+/*            line-height: 1em;*/
+            padding: 7px 0 7px 0;
+            
+            
+            
+            &:hover {
+		 background-color: #e00034;
+	    }
+            
+            
+            
+            
+            a {
+                color:$white; 
+                
+            }
+            
+/*            ul.second-controller {
+                
+                list-style:none;
+                
+                li {
+                    border:none;
+                    list-style:none; 
+                    font-family: $premier_league;
+                    font-size: 1.0em;
+                    font-weight: normal;
+                    text-transform: uppercase;
+                    margin: 0 0 0.4em;
+                    line-height: 1em;
+                    padding: 9px 0 9px 0;
+                }
+            }*/
+           
+             
+        }
+        }
+        ul.second-controller {
+            width: 100%;
+            height: auto;
+            padding: 0 0 !important;
+            margin-bottom:0;
+            margin-top:-8px;
+            display:none;
+            margin-left:2px;
+            
+         li {
+             list-style:none;
+/*            border:1px solid $red-ribbon;*/
+            font-family: $premier_league;
+            font-size: 0.8;
+            font-weight: normal;
+            text-transform: uppercase;
+         margin: 0 2px 0.5em 1px;
+    float: left;
+    width: 32%;
+/*            line-height: 1em;*/
+            padding: 7px 0 7px 0;
+            
+            &:nth-child(1) {
+                 background-color:$firstnth;
+            }
+            &:nth-child(2) {
+                background-color:$firstnth;
+            }
+            &:nth-child(3) {
+                  background-color:$firstnth;
+            }
+/*            &:hover {
+		 background-color: $red-ribbon;
+	    }
+            */
+            
+             &:hover {
+		 background-color: #e00034;
+	    }
+            
+            
+            a {
+                color:$white; 
+                
+            }
+            
+/*            ul.second-controller {
+                
+                list-style:none;
+                
+                li {
+                    border:none;
+                    list-style:none; 
+                    font-family: $premier_league;
+                    font-size: 1.0em;
+                    font-weight: normal;
+                    text-transform: uppercase;
+                    margin: 0 0 0.4em;
+                    line-height: 1em;
+                    padding: 9px 0 9px 0;
+                }
+            }*/
+           
+             
+        }
+        }
+        @include media($tablet) {
+		display:block
+	}
+        @include media($desktop) {
+		display:none
+	}
+       
+}
+
+  .map-controller {
+      
+      display:none;
+       @include media($desktop) {
+        display:block;
+	float: none;
+	position: relative;
+        z-index:999999;
+	text-align: center;
+	margin: 0 0 1.5em 0;
+	position: relative;
+	line-height: 0.9em;
+	top: 2em;
+        
+        
+        
+	@include media($desktop) {
+		float: left;
+		width: 100%;
+/*		padding-bottom: 5em;*/
+/*		margin-top: 2em;*/
+                
+	}
+        ul.primary {
+            width: 100%;
+            height: auto;
+            padding: 0 0 !important;
+            margin-bottom:0;
+         li {
+            list-style:none;
+            border:2px solid $red-ribbon;
+            font-family: $premier_league;
+            font-size: 1.375em;
+            font-weight: normal;
+            text-transform: uppercase;
+            margin: 0 0 0.4em;
+/*            line-height: 1em;*/
+                height: 14px;
+    
+    padding: 13px 0 24px 0;
+            
+            
+            
+            &:hover {
+		 background-color: #e00034;
+	    }
+            
+            
+            
+            
+            a {
+                color:$white; 
+                
+            }
+            
+/*            ul.second-controller {
+                
+                list-style:none;
+                
+                li {
+                    border:none;
+                    list-style:none; 
+                    font-family: $premier_league;
+                    font-size: 1.0em;
+                    font-weight: normal;
+                    text-transform: uppercase;
+                    margin: 0 0 0.4em;
+                    line-height: 1em;
+                    padding: 9px 0 9px 0;
+                }
+            }*/
+           
+             
+        }
+        }
+        ul.second-controller {
+            width: 100%;
+            height: auto;
+            padding: 0 0 !important;
+            margin-bottom:0;
+            margin-top:-8px;
+            display:none;
+            
+         li {
+            list-style:none;
+            border:none;
+            font-family: $premier_league;
+            font-size: 1.075em;
+            font-weight: normal;
+            text-transform: uppercase;
+            margin: 0 0 0;
+/*            line-height: 1em;*/
+            padding: 11px 0 11px 0;
+            
+                &:nth-child(1) {
+                 background-color:$firstnth;
+            }
+            &:nth-child(2) {
+                background-color:$firstnth;
+            }
+            &:nth-child(3) {
+                  background-color:$firstnth;
+            }
+            
+            &:hover {
+		 background-color: $red-ribbon;
+	    }
+            
+            
+            
+            
+            a {
+                color:$white; 
+                
+            }
+            
+/*            ul.second-controller {
+                
+                list-style:none;
+                
+                li {
+                    border:none;
+                    list-style:none; 
+                    font-family: $premier_league;
+                    font-size: 1.0em;
+                    font-weight: normal;
+                    text-transform: uppercase;
+                    margin: 0 0 0.4em;
+                    line-height: 1em;
+                    padding: 9px 0 9px 0;
+                }
+            }*/
+           
+             
+        }
+        }
+       }
+}
+
+.index .branding {
+	text-align: left;
+}
+
+.logo {
+	img {
+		width: 30%;
+		max-width: 100px;
+		height: auto;
+
+		@include media($desktop) {
+			width: 199px;
+			max-width: 199px;
+		}
+	}
+
+	@include media($desktop) {
+		margin-bottom: 1.5em;
+	}
+}
+
+.content {
+	float: none;
+	width: auto;
+	padding: 4em 0;
+ 
+	@include media($desktop) {
+		float: right;
+		width: 705px;
+		padding-bottom: 2em;
+	}
+}
+.map-and-directions .content {
+    float:left
+}
+.map-and-directions .col-x1 {
+    padding: 0;
+    @include media($tablet) {
+	padding: 6.8em 0;
+	}
+        @include media($desktop) {
+		padding: 6.8em 0 0 10px;
+                width:217px;
+	}
+    
+}
+.col-x1 {
+
+	@include span-columns(6 of 6);
+
+	@include media($tablet) {
+		@include span-columns(3 of 10);
+                float:right;
+                
+	}
+        @include media($desktop) {
+		width:225px;
+                
+	}
+
+	margin-bottom: 1em;
+
+	img {
+		width: 100%;
+		height: auto;
+	}
+        .directions {
+            display:none;
+        }
+      
+}
+.whats-on .col-x1 {
+     @include media($desktop) {
+		margin-right:17px;
+                width:218px;
+	}
+}
+.col-x2 {
+
+	@include span-columns(6 of 6);
+
+	@include media($tablet) {
+		@include span-columns(6 of 9);
+	}
+
+	margin-bottom: 1em;
+        @include media($desktop) {
+		 margin-right:0 !important;
+            margin-left:3.16844%
+	}
+       
+	img {
+		width: 100%;
+		height: auto;
+	}
+}
+
+/* FOOTER
+//////////////////////////////////////////////////////////////////////////////////*/
+.social-home {
+		position: absolute;
+		text-align: left;
+                z-index:1;
+		margin-bottom: 1em;
+                display:block;
+                margin-top:4px;
+                top:110px;
+		 
+                @include media($desktop) {
+			display:block;
+			text-align: right;
+			margin-bottom: 0;
+                        top:203px;
+                        width:300px;
+
+		}
+		.hashtag {
+			font-size: 0.25em;
+			display: block;
+
+			i {
+				color: $comet;
+			}
+		}
+
+		.icons {
+			display: block;
+			font-size: 0.8em;
+			a {
+				color: #ffffff;
+			}
+		}
+
+	}
+.push {
+	@include media($desktop) {
+		height: 5em;
+	}
+}
+
+footer {
+	height: auto;
+	position: relative;
+	width: auto;
+	padding-bottom: 3em;
+
+	.wrap {
+		padding-top: 1em;
+		border-top: 1px solid $comet;
+	}
+
+	@include media($desktop) {
+
+	}
+
+	.links {
+		position: relative;
+		margin-bottom: 2em;
+
+		@include span-columns(6 of 6);
+
+/*		@include media($tablet) {
+			@include span-columns(6 of 12);
+			margin-bottom: 0;
+		}*/
+                @include media($desktop) {
+				width:50%!important
+			}
+		.infolinks,
+		.copyright {
+			text-align: center;
+			font-size: 0.8em;
+			float: none;
+			color: #ffffff;
+			padding: 0.2em;
+			margin: 0;
+/*
+			@include media($tablet) {
+				text-align: left;
+			}*/
+
+			@include media($desktop) {
+				font-size: 0.7em;
+				float: left;
+				padding: 0;
+			}
+		}
+
+		.infolinks {
+		}
+
+		.infolinks a {
+			color: #fff;
+		}
+
+		.copyright {
+			@include media($desktop) {
+				&:before {
+					content: "\00a0\007C\00a0";
+				}
+			}
+		}
+	}
+
+        
+        
+        
+/*	.social {
+		position: relative;
+		text-align: left;
+		margin-bottom: 1em;
+                margin-top:4px;
+		@include span-columns(3 of 6);
+
+		@include media($tablet) {
+			@include span-columns(3 of 12);
+			text-align: right;
+			margin-bottom: 0;
+		}
+
+		.hashtag {
+			font-size: 0.3em;
+			display: block;
+
+			i {
+				color: $comet;
+			}
+		}
+
+		.icons {
+			display: block;
+			font-size: 0.8em;
+			a {
+				color: #ffffff;
+			}
+		}
+
+	}*/
+
+	.bbb {
+		position: relative;
+		text-align: right;
+		margin-bottom: 1em;
+                float:right;
+                width:100%;
+               
+/*		@include span-columns(4 of 6);
+*/
+		@include media($desktop) {
+			width:295px
+		}
+
+	}
+
+
+
+}
+
+/* CLASSES
+//////////////////////////////////////////////////////////////////////////////////*/
+
+.clear {
+	clear: both;
+}
+
+.last, .butt {
+	margin-bottom: 0 !important;
+}
+
+.end {
+	margin-right: 0;
+         
+      
+}
+
+.pull-left {
+	float: left;
+}
+
+.pull-right {
+	float: right;
+}
+
+.mob-hide {
+	display: none;
+	@include media($tablet) {
+		display: block;
+	}
+}

@@ -1,0 +1,15 @@
+Modified		author.php
+Modified		changelog.txt
+Modified		framework
+Modified		functions.php
+Modified		includes/admin/importer.php
+Modified		includes/admin/install.php
+Modified		includes/admin/settings.php
+Modified		includes/core.php
+Modified		includes/log.php
+Modified		includes/recaptcha
+Modified		includes/widgets.php
+Modified		jobroller.pot
+Modified		single.php
+Modified		style.css
+Modified		theme-framework

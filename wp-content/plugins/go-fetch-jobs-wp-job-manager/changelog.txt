@@ -1,0 +1,18 @@
+1.1.2
+Fixes:
+	- Invalid 'Create Template' link under schedule pages
+	- Use 'the_content' filter for feeds description (fixes HTML entities not properly converted on some RSS feeds)
+	- Strip tags in titles (fixes HTML tags showing in post titles on some RSS feeds)
+
+Changes:
+	- Added Option to force load a feed (for feeds that although valid may fail to load)
+
+1.1.1
+Fixes:
+ 	- Feeds not loading in Firefox
+
+1.1
+Fixes:
+ 	- Feeds from known providers not returning any data
+
+1.0 - First Release
