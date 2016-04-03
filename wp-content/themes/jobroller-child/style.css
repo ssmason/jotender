@@ -1,11 +1,10 @@
-
 /*
-Theme Name: jobroller Child
-Description: Child theme for Folo theme
-Author: SMason
+Theme Name: JobRoller Child Theme
+Version: 1.6.x
+Description: A child theme for JobRoller, the premium job listing theme for WordPress.
+Author: Stephen Mason
+Author URL: http://www.john-doe.com
 Template: jobroller
 */
-
-/* write custom css */
-
-
+@import url("../jobroller/style.css");
+@import url("../jobroller/styles/style-pro-green.css");

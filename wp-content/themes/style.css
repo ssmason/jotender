@@ -1,0 +1,203 @@
+/*
+ Theme Name:     twentysixteen Child Theme
+ Theme URI:      
+ Description:    twentysixteen Child Theme
+ Author:         S Mason
+ Author URI:     
+ Template:       twentysixteen
+ Version:        1.0.0
+*/
+ 
+@import url("../twentysixteen/style.css");
+ 
+/* =Theme customization starts here
+------------------------------------------------------- */
+/* map stuff */
+
+
+
+ul.home-page-cols {
+    list-style:none;
+    padding:0;
+    margin:0 0 40px 0;
+    width:100%;
+/*    background:red;*/
+    float:left
+}
+.home-page-cols li {
+    float:left;
+    width:47%;
+    border:1px solid #ccc;
+    border-radius:5px;
+    margin-right:7px;
+    height:140px;
+}
+.archive-map-container {
+        width: 270px;
+        height:270px;
+}
+      
+      
+/* layout stuff */
+.archive-list h3 {
+    font-size:14px;
+}
+.archive-list {
+    width:65%;
+    float:left;
+    font-size:12px;
+    margin-bottom:20px;
+}
+.archive-map {
+    width: 270px;
+    float:left;
+    padding-left: 30px;
+}
+ul.course-carousel {
+    width:100%;
+    list-style:none;
+    margin:0 0 20px 0;
+    padding:0;
+    float:left
+    
+}
+ul.course-carousel li {
+    width:20%;
+    max-width:20%;
+    margin-right:3px;
+    margin-bottom:20px;
+    float:left
+}
+ul.course-carousel li img {
+    width:100%
+}
+.full-content {
+    width:100%
+}
+
+.sidebar .post-thumbnail img {
+    border-radius:50%
+}
+.page-header { 
+       border-top: 1px solid #1a1a1a;               
+}
+
+.full-content {
+    width:100%
+}
+
+.widget {
+    border-top: 1px solid #1a1a1a;
+}
+.course-born {
+    list-style:none;
+}
+.course-information {
+    list-style:none;
+}
+/* =Theme customization starts here
+------------------------------------------------------- */
+/* map stuff */
+
+
+/* mobile */
+ 
+ 
+@media screen and (min-width: 75em) { 
+     .home-page-cols li {
+        float:left;
+        width:24%;
+        border:1px solid #ccc;
+        border-radius:5px;
+        margin-right:7px;
+        height:240px;
+    }
+}
+
+/**
+ * 14.1 - >= 710px
+ */
+
+@media screen and (min-width: 44.375em) {
+    .site-header {
+        padding:0 7.6923%; 
+    } 
+    .home-page-cols li {
+        float:left;
+        width:48%;
+        border:1px solid #ccc;
+        border-radius:5px;
+        margin-right:7px;
+        height:240px;
+    }
+}
+
+
+/**
+ * 14.2 - >= 783px
+ */
+
+@media screen and (min-width: 48.9375em) {
+    .home-page-cols li {
+        float:left;
+        width:48%;
+        border:1px solid #ccc;
+        border-radius:5px;
+        margin-right:7px;
+        height:240px;
+    } 
+}
+ 
+/**
+ * 14.3 - >= 910px
+ */
+
+@media screen and (min-width: 56.875em) {
+	.home-page-cols li {
+        float:left;
+        width:48%;
+        border:1px solid #ccc;
+        border-radius:5px;
+        margin-right:7px;
+        height:240px;
+    } 
+}
+ 
+/**
+ * 14.4 - >= 985px
+ */
+
+@media screen and (min-width: 61.5625em) {
+	.home-page-cols li {
+        float:left;
+        width:24%;
+        border:1px solid #ccc;
+        border-radius:5px;
+        margin-right:7px;
+        height:240px;
+    } 
+    .entry-title {
+        font-size: 16px;
+        font-size: 1rem;
+        line-height: 1.75;
+        margin-bottom: 2.05em;
+    } 
+    .site-header {
+        padding:0 4.5455% 0;
+    }
+    body:not(.search-results) article:not(.type-page) .entry-content {
+        float: right;
+        width: 100%;  
+    }
+}
+
+
+/**
+ * 14.5 - >= 1200px
+ */
+
+@media screen and (min-width: 75em) {
+	 
+}
+
+ 
